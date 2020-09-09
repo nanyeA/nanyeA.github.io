@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="Java菜鸟一只，欢迎交流">
+<meta property="og:type" content="website">
+<meta property="og:title" content="nanye的博客">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="nanye的博客">
+<meta property="og:description" content="Java菜鸟一只，欢迎交流">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="nanye">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>nanye的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">nanye的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/09/Spring%E5%AD%A6%E4%B9%A002/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/09/Spring%E5%AD%A6%E4%B9%A002/" class="post-title-link" itemprop="url">Spring学习02</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-09-09 07:24:16 / 修改时间：08:06:35" itemprop="dateCreated datePublished" datetime="2020-09-09T07:24:16+08:00">2020-09-09</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Spring/" itemprop="url" rel="index"><span itemprop="name">Spring</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Spring的基本实现<br> 加入maven依赖spring和junit</p>
+<pre><code> &lt;dependencies&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;junit&lt;/groupId&gt;
+      &lt;artifactId&gt;junit&lt;/artifactId&gt;
+      &lt;version&gt;4.11&lt;/version&gt;
+      &lt;scope&gt;test&lt;/scope&gt;
+    &lt;/dependency&gt;
+
+    &lt;dependency&gt;
+      &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+      &lt;artifactId&gt;spring-context&lt;/artifactId&gt;
+      &lt;version&gt;5.2.5.RELEASE&lt;/version&gt;
+    &lt;/dependency&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+      &lt;artifactId&gt;spring-context&lt;/artifactId&gt;
+      &lt;version&gt;5.2.8.RELEASE&lt;/version&gt;
+      &lt;scope&gt;test&lt;/scope&gt;
+    &lt;/dependency&gt;
+  &lt;/dependencies&gt;</code></pre>
+<p> 2.创建需要创建对象的类模板</p>
+<pre><code>    public interface SomeService &#123;
+        void doSome();
+    &#125;
+
+    public class SomeServiceImpl implements SomeService &#123;
+
+        @Override
+        public void doSome() &#123;
+            System.out.println(&quot;HelloWord&quot;);
+        &#125;
+    &#125;</code></pre>
+<p> 3.创建spring需要的配置文件，声明类的信息，这些类由spring创建和管理</p>
+<pre><code>      &lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+             xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+             xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans
+             http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;
+      &lt;!--
+          spring的配置文件：
+          1.beans:是根标签，spring把Java对象成为bean
+          2.spring-beans.xsd：是约束文件
+      --&gt;
+
+          &lt;!--
+          1.声明bean，就是告诉spring要创建某个类的对象
+          id:对象的自定义名称，唯一值。spring通过这个名称来找到对象
+          class：类的全限定名称（不能是接口，spring用反射机制创建对象，必须使用类的全限定名称)
+
+          2.spring是把创建好的对象放入map当中，spring框架有一个map存放对象
+
+          --&gt;
+          &lt;bean id=&quot;someService&quot; class=&quot;com.nanye.Service.Impl.SomeServiceImpl&quot;/&gt;
+
+      &lt;/beans&gt;</code></pre>
+<p> 4.测试spring创建的对象</p>
+<pre><code>    public class AppTest &#123;
+
+
+        @Test
+        public void shouldAnswerWithTrue() &#123;
+
+            //指定spring容器创建的对象
+
+            //1.指定spring配置文件的名称
+            String config = &quot;Spring.xml&quot;;
+
+            //2.创建表示spring容器的对象，ApplicationContext
+            //ApplicationContext就是表示spring容器，通过容器获取对象
+            //ClassPathXmlApplicationContext从类路径加载spring配置文件
+            ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+
+            //从容器当中获取某个对象，调用对象方法
+            //getBean(&quot;配置文件的bean的id“）
+            SomeService service=(SomeService)ac.getBean(&quot;someService&quot;);
+
+
+            service.doSome();
+
+        &#125;
+    &#125;           </code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/09/Mybatis%E5%AD%A6%E4%B9%A007/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/09/Mybatis%E5%AD%A6%E4%B9%A007/" class="post-title-link" itemprop="url">Mybatis学习07</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-09-09 00:11:02 / 修改时间：08:06:01" itemprop="dateCreated datePublished" datetime="2020-09-09T00:11:02+08:00">2020-09-09</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mybatis/" itemprop="url" rel="index"><span itemprop="name">Mybatis</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Mybatis了解内容<br>动态sql:sql内容是变化的，可以根据条件获取不同的sql语句，主要是where 部分发生变化</p>
+<p>动态sql的实现：使用的是mybatis提供的标签<if>,<where>,<foreach></p>
+<p> 1)<if test="判断对象的属性值"><br>            部分sql语句<br>   </if></p>
+<p> 2)<where>用来包含多个<if></if>当多个if成立，where会自动增加where关键字，并去掉and,or</p>
+<p> 3)<foreach>循环Java当中的数组，list集合的，主要用在SQL当中的in语句</p>
+<p> PageHelper为了做数据分页：<br>                pom.xml依赖要加上这个</p>
+<pre><code>                &lt;!--PageHelper依赖--&gt;
+                   &lt;dependency&gt;
+                     &lt;groupId&gt;com.github.pagehelper&lt;/groupId&gt;
+                     &lt;artifactId&gt;pagehelper&lt;/artifactId&gt;
+                     &lt;version&gt;5.1.2&lt;/version&gt;
+                   &lt;/dependency&gt;</code></pre>
+<p>而后在resources目录下的Mybatis核心配置文件下加上   </p>
+<pre><code>      &lt;plugins&gt;
+            &lt;plugin interceptor=&quot;com.github.pagehelper.PageInterceptor&quot;&gt;&lt;/plugin&gt;
+        &lt;/plugins&gt;    </code></pre>
+<p>测试代码   </p>
+<pre><code>public class AppTest &#123;
+SqlSession sqlSession = MybatisUtils.getSqlSession();
+
+//getMapper能够获取dao接口对于实现类对象
+StudentDao dao = sqlSession.getMapper(StudentDao.class);
+@Test
+public void m1() &#123;
+
+    PageHelper.startPage(1,2);
+  List&lt;Student&gt; studentList= dao.SelectStudent();
+
+    for (Student s:studentList) &#123;
+        System.out.println(s);
+    &#125;
+    sqlSession.close();
+&#125;</code></pre>
+<p>}</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A006/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A006/" class="post-title-link" itemprop="url">Mybatis学习06</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-08 23:59:08" itemprop="dateCreated datePublished" datetime="2020-09-08T23:59:08+08:00">2020-09-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-09 08:06:01" itemprop="dateModified" datetime="2020-09-09T08:06:01+08:00">2020-09-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mybatis/" itemprop="url" rel="index"><span itemprop="name">Mybatis</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Mybatis传入参数，传出数据<br>传入参数<br> 1.parameterType:写在mapper文件当中的一个属性，表示dao接口中方法的参数的数据类型</p>
+<p> 2.传入参数：从Java代码中把代码中的数据传入mapper文件当中的SQL语句<br> parameterType:写在mapper文件中的一个属性，表示dao接口中方法的参数的数据类型</p>
+<p> 3.一个简单类型参数（基本数据类型，String)都叫做简单类型，在mapper类型文件中获取一个参数的值，使用#{}；</p>
+<p> 4.多个参数，使用@Param命名参数</p>
+<p> 5.多个参数，使用对象方式传递</p>
+<p> 传出数据<br>1.mybatis执行了SQL语句，得到Java对象，类型任意的</p>
+<p>2.resultType结果类型，指sql语句完毕后，数据转为的Java对象<br>     处理方式：MySQL执行sql语句，然后mybatis去调用无参构造，创建dx<br>     mybatis把ResultSet指定列值付给同名的属性</p>
+<p>3.返回类型为Map,列名是key,列值是value<br>     返回类型是map时只能返回一行数据</p>
+<p>4.resultMap:结果映射：指定列名与Java对象的属性对应关系<br>                 1.自定义列值赋值给哪个属性<br>                 2.当列名与属性名名字一样时，一定使用resultMap</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A005/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A005/" class="post-title-link" itemprop="url">Mybatis学习05</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-08 23:40:47" itemprop="dateCreated datePublished" datetime="2020-09-08T23:40:47+08:00">2020-09-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-09 08:07:16" itemprop="dateModified" datetime="2020-09-09T08:07:16+08:00">2020-09-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mybatis/" itemprop="url" rel="index"><span itemprop="name">Mybatis</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Mybatis以动态代理实现</p>
+<p>1.动态代理定义：为其他对象提供一个代理以控制对某个对象的访问。代理类主要负责为委托了（真实对象）预处理消息、过滤消息、传递消息给委托类，代理类不现实具体服务，而是利用委托类来完成服务，并将执行结果封装处理。<br>其实就是代理类为被代理类预处理消息、过滤消息并在此之后将消息转发给被代理类，之后还能进行消息的后置处理。代理类和被代理类通常会存在关联关系(即上面提到的持有的被带离对象的引用)，代理类本身不实现服务，而是通过调用被代理类中的方法来提供服务。<br>  引自：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/9bcac608c714">https://www.jianshu.com/p/9bcac608c714</a></p>
+<p>2.从上一篇可以发现：dao对象，类型是studentDao，全限定名称：com.nanye.dao.StudentDao，全限定名称和namespace是一样的<br>                 方法名称 selectStudents,这个方法就是mapper文件的id值<br>                 通过dao方法的返回值确定sqlSession的方法</p>
+<p>3.mybatis的动态代理：mybatis根据dao方法调用，获取sql语句信息<br>          mybatis根据你的dao接口，创建出一个dao接口实现类，并创建接口实现类，并创建类的对象<br>          完成sqlSession调用方法，访问数据库</p>
+<p>4.如此我们不需要创建StudentDaoImpl.java实现类,只需要，使用sqlSession.getMapper（接口)<br>                                        getMapper能获取dao接口对应的实现类对象</p>
+<pre><code>    public class AppTest&#123;
+SqlSession sqlSession = MybatisUtils.getSqlSession();
+
+//getMapper能够获取dao接口对于实现类对象
+StudentDao dao = sqlSession.getMapper(StudentDao.class);
+@Test
+public void m1() &#123;
+    Student students=dao.selectStudentByIdAndName(&quot;04&quot;,&quot;nanye&quot;);
+
+    System.out.println(students);
+&#125;</code></pre>
+<p>}</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A004/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A004/" class="post-title-link" itemprop="url">Mybatis学习04</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-08 23:25:08" itemprop="dateCreated datePublished" datetime="2020-09-08T23:25:08+08:00">2020-09-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-09 08:07:48" itemprop="dateModified" datetime="2020-09-09T08:07:48+08:00">2020-09-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mybatis/" itemprop="url" rel="index"><span itemprop="name">Mybatis</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Mybatis以未动态代理实现</p>
+<p>  在Dao包下创建StudentDao.java接口文件和StudentDao.xml文件并且创建Dao实现类Impl.StudentImpl<br>    StudentDao.java</p>
+<pre><code>    public interface StudentDao &#123;
+
+        List &lt;Student&gt; SelectStudent();
+
+        int insertStudent(Student student);
+    &#125;</code></pre>
+<p>   StudentDao.xml </p>
+<pre><code>    &lt;!DOCTYPE mapper PUBLIC &quot;-//mybatis.org//DTD Config 3.0//EN&quot;
+            &quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;&gt;
+    &lt;mapper namespace=&quot;com.nanye.dao.StudentDao&quot;&gt;
+        &lt;select id=&quot;selectStudents&quot; resultType=&quot;com.nanye.domain.Student&quot;&gt;
+        select * from t_student
+      &lt;/select&gt;
+
+        &lt;insert id=&quot;insertStudent&quot; &gt;
+        insert into t_student value (#&#123;ID&#125;, #&#123;name&#125;,#&#123;StudentClass&#125;, #&#123;Email&#125;,#&#123;password&#125;);
+        &lt;/insert&gt;
+    &lt;/mapper&gt;</code></pre>
+<p>   Impl.StudentDaoImpl.java</p>
+<pre><code>    public class StudentDaoImpl implements StudentDao &#123;
+
+        @Override
+        public List&lt;Student&gt; SelectStudent() &#123;
+            SqlSession sqlSession= MybatisUtils.getSqlSession();
+
+            String sqlId=&quot;com.nanye.dao.StudentDao.selectStudents&quot;;
+
+            List&lt;Student&gt; studentList=sqlSession.selectList(sqlId);
+
+            for (Student stu:studentList) &#123;
+                System.out.println(stu);
+            &#125;
+            sqlSession.close();
+            return studentList;
+        &#125;
+
+        @Override
+        public int insertStudent(Student student) &#123;
+            return 0;
+        &#125;
+    &#125;</code></pre>
+<p>   创建实体类：</p>
+<pre><code>   public class Student &#123;
+       //定义属性，目前要求是属性名和列名一样
+       private String ID;
+       private String name;
+       private String password;
+       private String Email;
+       private String StudentClass;
+
+       @Override
+       public String toString() &#123;
+           return &quot;Student&#123;&quot; +
+                   &quot;ID=&#39;&quot; + ID + &#39;\&#39;&#39; +
+                   &quot;, name=&#39;&quot; + name + &#39;\&#39;&#39; +
+                   &quot;, password=&#39;&quot; + password + &#39;\&#39;&#39; +
+                   &quot;, Email=&#39;&quot; + Email + &#39;\&#39;&#39; +
+                   &quot;, StudentClass=&#39;&quot; + StudentClass + &#39;\&#39;&#39; +
+                   &#39;&#125;&#39;;
+       &#125;
+
+       public Student() &#123;
+       &#125;
+
+       public Student(String ID, String name, String password, String email, String studentClass) &#123;
+           this.ID = ID;
+           this.name = name;
+           this.password = password;
+           Email = email;
+           StudentClass = studentClass;
+       &#125;
+
+       public String getID() &#123;
+           return ID;
+       &#125;
+
+       public void setID(String ID) &#123;
+           this.ID = ID;
+       &#125;
+
+       public String getName() &#123;
+           return name;
+       &#125;
+
+       public void setName(String name) &#123;
+           this.name = name;
+       &#125;
+
+       public String getPassword() &#123;
+           return password;
+       &#125;
+
+       public void setPassword(String password) &#123;
+           this.password = password;
+       &#125;
+
+       public String getEmail() &#123;
+           return Email;
+       &#125;
+
+       public void setEmail(String email) &#123;
+           Email = email;
+       &#125;
+
+       public String getStudentClass() &#123;
+           return StudentClass;
+       &#125;
+
+       public void setStudentClass(String studentClass) &#123;
+           StudentClass = studentClass;
+       &#125;
+   &#125;
+
+ 引用我们上一篇的Myuntils.java类的getSqlSession()方法    </code></pre>
+<p>   测试类App.java</p>
+<pre><code>    public class App 
+    &#123;
+        public static void main( String[] args )
+        &#123;
+            StudentDao dao=new StudentDaoImpl();
+
+            List&lt;Student&gt; studentList=dao.SelectStudent();
+
+            for(Student student:studentList)&#123;
+                System.out.println(student);
+            &#125;
+        &#125;
+    &#125;   </code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A003/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A003/" class="post-title-link" itemprop="url">Mybatis学习03</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-08 23:09:42" itemprop="dateCreated datePublished" datetime="2020-09-08T23:09:42+08:00">2020-09-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-09 08:08:14" itemprop="dateModified" datetime="2020-09-09T08:08:14+08:00">2020-09-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mybatis/" itemprop="url" rel="index"><span itemprop="name">Mybatis</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Mybatis的工具类及其作用和封装自定义工具类<br> 1.Resources:mybatis当中的一个类，负责读取主配制文件</p>
+<pre><code>         InputStream in = Resources.getResourceAsStream(config);</code></pre>
+<p> 2.SqlSessionFactoryBuilder创建SqlSessionFactoryBuilder对象</p>
+<pre><code>          SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();</code></pre>
+<p> 3.SqlSessionFactory类创建SqlSessionFactory对象，SqlSessionFactory重量级对象，创建时间较长，使用资源比较多，<br>    所以一般来说SqlSessionFactory对象有一个就够了，SqlSessionFactory是个接口，SqlSessionFactory接口常用实现类：DefaultSqlSessionFactory<br>                SqlSessionFactory作用：获取SqlSession对象</p>
+<pre><code>            SqlSession sqlSession = factory.openSession();</code></pre>
+<p> 4.openSession()方法说明：无参数的，获取非自动提交事务sqlSession对象<br>      openSession(Boolean):获取自动提交事务的sqlSession</p>
+<pre><code>           SqlSessionFactory factory = builder.build(in);</code></pre>
+<p> 5.SqlSession接口：定义了数据操作的方法（select，insert，delete，update）</p>
+<pre><code>          SqlSession sqlSession = factory.openSession();</code></pre>
+<p> 6.在utils包下创建一个自定义工具类</p>
+<pre><code>    public class MybatisUtils &#123;
+        private static SqlSessionFactory factory=null;
+        static &#123;
+            String config = &quot;Mybatis.xml&quot;;
+
+            try &#123;
+                InputStream in = Resources.getResourceAsStream(config);
+
+                factory=new SqlSessionFactoryBuilder().build(in);
+            &#125; catch (IOException e) &#123;
+                e.printStackTrace();
+            &#125;
+
+        &#125;
+        public static SqlSession getSqlSession()&#123;
+            SqlSession sqlSession=null;
+            if (factory!=null)&#123;
+               sqlSession= factory.openSession();
+            &#125;
+            return sqlSession;
+        &#125;
+    &#125;</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A002/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A002/" class="post-title-link" itemprop="url">Mybatis学习02</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-08 22:36:47" itemprop="dateCreated datePublished" datetime="2020-09-08T22:36:47+08:00">2020-09-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-09 08:08:25" itemprop="dateModified" datetime="2020-09-09T08:08:25+08:00">2020-09-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mybatis/" itemprop="url" rel="index"><span itemprop="name">Mybatis</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Mybatis初步使用<br>1.建立数据库例表</p>
+<pre><code>create table t_student
+(
+    ID           char(9)     not null
+        primary key,
+    name         varchar(10) null,
+    StudentClass varchar(20) null,
+    Email        varchar(30) null,
+    password     varchar(20) null
+);</code></pre>
+<p>2.在pom.xml配置文件中加入maven的mybatis坐标，MySQL驱动坐标</p>
+<pre><code>//Mysql驱动
+&lt;dependency&gt;
+  &lt;groupId&gt;mysql&lt;/groupId&gt;
+  &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;
+  &lt;version&gt;5.1.20&lt;/version&gt;
+&lt;/dependency&gt;
+
+//mybatis坐标
+&lt;dependency&gt;
+  &lt;groupId&gt;org.mybatis&lt;/groupId&gt;
+  &lt;artifactId&gt;mybatis&lt;/artifactId&gt;
+  &lt;version&gt;3.5.1&lt;/version&gt;
+&lt;/dependency&gt;</code></pre>
+<p>3.创建实体类，student–保存表中的一行数据<br>   创建Student.java文件，代码如下：</p>
+<pre><code>//推荐和表名一样，容易记忆
+public class Student &#123;
+   //定义属性，目前要求是属性名和列名一样
+   private String ID;
+   private String name;
+   private String password;
+   private String Email;
+   private String StudentClass;
+   public Student() &#123;
+   &#125;
+
+   public Student(String ID, String name, String password, String email, String studentClass) &#123;
+       this.ID = ID;
+       this.name = name;
+       this.password = password;
+       Email = email;
+       StudentClass = studentClass;
+   &#125;
+
+   public String getID() &#123;
+       return ID;
+   &#125;
+
+   public void setID(String ID) &#123;
+       this.ID = ID;
+   &#125;
+
+   public String getName() &#123;
+       return name;
+   &#125;
+
+   public void setName(String name) &#123;
+       this.name = name;
+   &#125;
+
+   public String getPassword() &#123;
+       return password;
+   &#125;
+
+   public void setPassword(String password) &#123;
+       this.password = password;
+   &#125;
+
+   public String getEmail() &#123;
+       return Email;
+   &#125;
+
+   public void setEmail(String email) &#123;
+       Email = email;
+   &#125;
+
+   public String getStudentClass() &#123;
+       return StudentClass;
+   &#125;
+
+   public void setStudentClass(String studentClass) &#123;
+       StudentClass = studentClass;
+
+
+   @Override
+   public String toString() &#123;
+       return &quot;Student&#123;&quot; +
+               &quot;ID=&#39;&quot; + ID + &#39;\&#39;&#39; +
+               &quot;, name=&#39;&quot; + name + &#39;\&#39;&#39; +
+               &quot;, password=&#39;&quot; + password + &#39;\&#39;&#39; +
+               &quot;, Email=&#39;&quot; + Email + &#39;\&#39;&#39; +
+               &quot;, StudentClass=&#39;&quot; + StudentClass + &#39;\&#39;&#39; +
+               &#39;&#125;&#39;;
+   &#125;    
+   &#125;</code></pre>
+<p>   }</p>
+<p>4.创建持久层的dao接口，定义操作数据库的方法<br>    创建在dao包下创建StudentDao接口，代码如下</p>
+<pre><code>//操作student表
+public interface StudentDao &#123;
+    //查询student表中的所有数据
+    List &lt;Student&gt; listStudent();
+
+    //插入操作，student表示插入的数据。返回值表示执行insert操作后的条数
+    int insertStudent(Student student);
+&#125;</code></pre>
+<p> 5.创建一个mybatis使用的配置文件（sql映射文件：写一个表一个sql映射文件，这个文件是xml文件。在接口所在的目录中，文件名称和接口保持一致。</p>
+<pre><code>  &lt;!DOCTYPE mapper PUBLIC &quot;-//mybatis.org//DTD Config 3.0//EN&quot;
+          &quot;http://mybatis.org/dtd/mybatis-3-mapper.dtd&quot;&gt;
+  &lt;!---
+  1.sql映射文件，写sql语句，Mybatis会这些语句
+  2.namespace:叫做命令空间，唯一值的，可以是自定义的字符串，要求你使用dao接口的全限定名称
+  3.在当前文件中，可以使用特定的标签，表示数据库的特定操作
+  4.resultType:表示结果类型，是sql语句执行后得到ResultSet得到Java对象的类型
+  --&gt;
+  &lt;mapper namespace=&quot;com.nanye.dao.StudentDao&quot;&gt;
+      &lt;select id=&quot;selectStudents&quot; resultType=&quot;com.nanye.domain.Student&quot;&gt;
+      select * from t_student
+    &lt;/select&gt;
+      &lt;insert id=&quot;insertStudent&quot; &gt;
+      insert into t_student value (#&#123;ID&#125;, #&#123;name&#125;,#&#123;StudentClass&#125;, #&#123;Email&#125;,#&#123;password&#125;);
+      &lt;/insert&gt;
+  &lt;/mapper&gt;</code></pre>
+<p>6.创建mybatis的主配文件：一个项目一个主配制文件（提供数据库信息，sql映射文件的位置信息）</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;!DOCTYPE configuration
+        PUBLIC &quot;-//mybatis.org//DTD Config 3.0//EN&quot;
+        &quot;http://mybatis.org/dtd/mybatis-3-config.dtd&quot;&gt;
+&lt;!--主配置文件--&gt;
+
+&lt;!--
+1.environment:一个数据库的配置文件，环境
+2.一个唯一值，自定义，表示环境的名称
+--&gt;
+&lt;configuration&gt;
+    &lt;!--控制mybatis全局行为--&gt;
+    &lt;settings&gt;
+        &lt;!--输出日志--&gt;
+        &lt;setting name=&quot;logImpl&quot; value=&quot;STDOUT_LOGGING&quot; /&gt;
+    &lt;/settings&gt;
+    &lt;environments default=&quot;default&quot;&gt;
+
+        &lt;environment id=&quot;default&quot;&gt;
+&lt;!--
+transactionManager:mybatis的事务类型
+type：JDBC(表示使用jdbc中的Connection对象的commit，rollback做事务处理
+--&gt;
+            &lt;transactionManager type=&quot;JDBC&quot;/&gt;
+
+            &lt;!--
+            dataSource:表示数据库，连接数据库的
+            type：表示数据源的类型，POOLED表示使用连接池
+            --&gt;
+            &lt;dataSource type=&quot;POOLED&quot;&gt;
+                &lt;!--数据库驱动类名--&gt;
+                &lt;property name=&quot;driver&quot; value=&quot;&quot;/&gt;
+                &lt;!--连接数据库的url字符串--&gt;
+                &lt;property name=&quot;url&quot; value=&quot;&quot;/&gt;
+                &lt;!--连接数据库的名称字符串--&gt;
+                &lt;property name=&quot;username&quot; value=&quot;&quot;/&gt;
+                &lt;!--连接数据库的密码--&gt;
+                &lt;property name=&quot;password&quot; value=&quot;&quot;/&gt;
+            &lt;/dataSource&gt;
+        &lt;/environment&gt;
+    &lt;/environments&gt;
+
+    &lt;!---sql mapper(sql映射文件)的位置--&gt;
+    &lt;mappers&gt;
+        &lt;!--
+        1.一个mapper标签指定一个的位置
+        2.从类路径开始的路径信息
+        --&gt;
+        &lt;mapper resource=&quot;com/nanye/dao/StudentDao.xml&quot;/&gt;
+    &lt;/mappers&gt;
+&lt;/configuration&gt;</code></pre>
+<p>7.创建使用mybatis类：访问数据库</p>
+<pre><code> public class MybatisTest01 &#123;
+//访问mybatis读取student数据
+public static void main(String[] args) &#123;
+
+    //定义mybatis主配制文件的名称(从类路径的根开始target/class）
+    String config = &quot;Mybatis.xml&quot;;
+
+
+    try &#123;
+        //读取这个config表示文件
+        InputStream in = Resources.getResourceAsStream(config);
+
+        //创建SqlSessionFactoryBuilder对象
+        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+
+        //创建SqlSessionFactory对象
+        SqlSessionFactory factory = builder.build(in);
+
+        //【重要】获取SqlSession对象，从SqlSessionFactory中获取SqlSession
+        SqlSession sqlSession = factory.openSession();
+
+        //【重要】指定要执行的sql语句的标识，sql映射文件中的namespace+“.&quot;+标签的id值
+        String sqlId = &quot;com.nanye.dao.StudentDao&quot; + &quot;.&quot; + &quot;selectStudents&quot;;
+
+        //执行sql语句，通过sqlId找到语句
+        List&lt;Student&gt; studentList = sqlSession.selectList(sqlId);
+
+        //输出结果
+        for (Student student : studentList) &#123;
+            System.out.println(student);
+        &#125;
+
+        sqlSession.close();
+
+    &#125; catch (IOException e) &#123;
+        e.printStackTrace();
+    &#125;
+&#125;
+&#125;</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/08/Spring%E5%AD%A6%E4%B9%A001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/08/Spring%E5%AD%A6%E4%B9%A001/" class="post-title-link" itemprop="url">Spring学习01</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-08 22:21:30" itemprop="dateCreated datePublished" datetime="2020-09-08T22:21:30+08:00">2020-09-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-09 08:06:23" itemprop="dateModified" datetime="2020-09-09T08:06:23+08:00">2020-09-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Spring/" itemprop="url" rel="index"><span itemprop="name">Spring</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Spring基础理论<br> 1.Spring全家桶，Spring,Springboot,SpringMvc,SpringCloud</p>
+<p> 2.Spring:为了解决企业级开发的难度，减少对项目模块之间的管理，类和类之间的管理。<br> 帮助开发人员创建对象，管理对象之间的关系</p>
+<p> 3.Spring核心技术Ioc，Aop（能实现模块之间，类和类之间的解耦合）</p>
+<p> 4.ClassA中有ClassB的属性和方法，叫做ClassA依赖ClassB</p>
+<p> 5.ioc概念（控制反转）：是一个描述对象创建，赋值，管理工作都交给代码之外的容器实现的理论<br>    控制：创建对象，赋值，对象之间的管理工作<br>    正转：由开发人员在代码中，使用new构造方法等操作创建对象，开发者自动管理对象<br>    反转：把开发人员管理，创建对象的权限转移给代码之外的容器实现，由容器代替开发人员管理/创建对象</p>
+<p> 6.容器：是一个服务器软件，一个框架（Spring）</p>
+<p> 7.ioc的实现：DI技术（依赖注入），只需要在程序中提供要使用的对象名称就可以了，至于如何创建/赋值/查找都是容器内部实现</p>
+<p> 8.Spring是使用ioc的功能，spring底层创建对象，使用的是反射机制。</p>
+<p> 9.实现步骤：<br>    创建maven项目<br>    加入maven依赖spring junit<br>    创建类<br>    创建spring需要的配置文件，声明类的信息，这些类由spring创建和管理<br>    测试spring创建的对象</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="nanye">
+      <meta itemprop="description" content="Java菜鸟一只，欢迎交流">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nanye的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/09/08/Mybatis%E5%AD%A6%E4%B9%A001/" class="post-title-link" itemprop="url">Mybatis学习01</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-09-08 22:09:23" itemprop="dateCreated datePublished" datetime="2020-09-08T22:09:23+08:00">2020-09-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-09-09 08:09:03" itemprop="dateModified" datetime="2020-09-09T08:09:03+08:00">2020-09-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Mybatis/" itemprop="url" rel="index"><span itemprop="name">Mybatis</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>##Mybatis学习第一步：Mybatis基础理论<br> 1.Mybatis是一个增强的jdbc（Java Database Connectivity)，用于对数据库进行改动</p>
+<p> 2.三层架构：<br>    界面层：接收用户的数据，显示请求的结果。使用web页面和用户交互<br>    业务层：接收界面层传来的数据，计算逻辑，调用数据库，获取数据，处理业务逻辑<br>    持久层：与数据库打交道，对数据进行增删改查</p>
+<p> 3.三层对应的包<br>    界面层：Controller(servlet)<br>    业务层：Service包<br>    数据访问层：Dao包</p>
+<p> 4.三层的交互：<br>    用户使用界面层–&gt;业务层–&gt;持久层–&gt;数据库</p>
+<p> 5.三层对应的框架<br>    界面层：springMvc （ servlet）<br>    持久层：mybatis<br>    业务层：spring</p>
+<p> 6.实现mybatis的步骤：<br>     a.建立数据库例表<br>     b.加入maven的mybatis坐标，MySQL驱动坐标<br>     c.创建实体类，student–保存表中的一行数据<br>     d.创建持久层的dao接口，定义操作数据库的方法<br>     e.创建一个mybatis使用的配置文件（sql映射文件：写一个表一个sql映射文件，这个文件是xml文件<br>        1.在接口所在的目录中，文件名称和接口保持一致<br>     f.创建mybatis的主配文件：一个项目一个主配制文件（提供数据库信息，sql映射文件的位置信息）<br>     g.创建使用mybatis类：访问数据库</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">nanye</p>
+  <div class="site-description" itemprop="description">Java菜鸟一只，欢迎交流</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">nanye</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
